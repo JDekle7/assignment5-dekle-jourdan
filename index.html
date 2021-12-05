@@ -3,36 +3,45 @@
     <head>
         <meta charset="utf-8"/>
         <title>Assignment 5 - Contact Form</title>
-        <link ref="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
         <h1>Who is Your Favorite Avatar: The Last Airbender Character?</h1>
+        <section class="content">
+            <img class="image" src="images/avatar.jpg" width="500">
+            <p>Avatar: The Last Airbender is an animated series on Nickelodeon that aired in the early 2000s.</p>
+            <p>The show follows Avatar Aang as he brings harmony back to the world by learning all four elements:</p>
+            <p>Air, Earth, Water, and Fire.</p>
+            <p>Are you a fan of Avatar: The last Airbender?</p>
+            <p>If so, complete this form!</p>
+        </section>
         <form name="contactform" method="POST" action="">
-            <div class="first-name">
+            <div class="first-name input-section">
                 <label for="firstname" class="label_input_wrap">First Name:</label>
                 <input type="text" name="firstname" id="firstname">
             </div>
-            <div class="last-name">
+            <div class="last-name input-section">
                 <label for="lastname" class="label_input_wrap">Last Name:</label>
                 <input type="text" name="lastname" id="lastname">
             </div>
-            <div class="email">
+            <div class="email input-section">
                 <label for="email" class="label_input_wrap">Email:</label>
                 <input type="email" name="email" id="email">
             </div>
-            <div class="radiobutton">
-                <h2>Have you watched Avatar: The Last Airbender?</h2>
+            <p class="questions">Have you watched Avatar: The Last Airbender?</p>
+            <div class="radiobutton input-section">
                 <input type="radio" name="characters" value="yes" id="yes" /><label for="yes">Yes</label>
                 <input type="radio" name="characters" value="ni" id="no" /><label for="no">No</label>
             </div>
-                <h2>Favorite Characters</h2>
+            <p class="questions">Favorite Characters</p>
+            <div class="checkbox input-section">
                 <input type="checkbox" name="characters" value="aang" id="aang" /><label for="aang">Aang</label>
                 <input type="checkbox" name="characters" value="katara" id="katara" /><label for="katara">Katara</label>
                 <input type="checkbox" name="characters" value="soka" id="soka" /><label for="soka">Soka</label>
                 <input type="checkbox" name="characters" value="toph" id="toph" /><label for="toph">Toph</label>
                 <input type="checkbox" name="characters" value="zuko" id="zuko" /><label for="zuko">Zuko</label>
             </div>
-            <div class="dropdown">
+            <div class="dropdown input-section">
                 <label for="book" class="label_input_wrap">Which book is your favorite?</label>
                 <select name="book" id="book">
                     <option value="water">Water</option>

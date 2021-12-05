@@ -3,3 +3,86 @@
     padding: 0;
     border: 0;
 }
+
+h1 {
+    text-align: center;
+    padding: 7px;
+    margin: 5px;
+}
+
+.questions {
+    padding: 7px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form {
+    background: lightgreen;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 7px;
+    margin: 0 auto;
+}
+
+.label_input_wrap {
+    display: block;
+}
+
+.submit input {
+    background: darkblue;
+    color: white;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 5px;
+}
+
+.input-section {
+    margin: 10px;
+}
+
+input {
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+select {
+    width: 200px;
+    padding: 7px;
+    margin: 10px 0px;
+    border-radius: 3px;
+}
+
+.checkbox {
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+.radiobutton {
+    margin: 10px;
+}
+
+.submit input:hover {
+    background: lightskyblue;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.content p:first-letter {
+    font-size: 25px;
+    color: mediumblue;
+    font-weight: bold;
+}
+
+.content p:nth-child(4) {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.content p:last-of-type {
+    font-style: italic;
+}
