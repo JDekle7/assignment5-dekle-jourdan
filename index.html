@@ -6,6 +6,43 @@
         <link ref="stylesheet" href="css/styles.css">
     </head>
     <body>
-
+        <h1>Who is Your Favorite Avatar: The Last Airbender Character?</h1>
+        <form name="contactform" method="POST" action="">
+            <div class="first-name">
+                <label for="firstname" class="label_input_wrap">First Name:</label>
+                <input type="text" name="firstname" id="firstname">
+            </div>
+            <div class="last-name">
+                <label for="lastname" class="label_input_wrap">Last Name:</label>
+                <input type="text" name="lastname" id="lastname">
+            </div>
+            <div class="email">
+                <label for="email" class="label_input_wrap">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="radiobutton">
+                <h2>Have you watched Avatar: The Last Airbender?</h2>
+                <input type="radio" name="characters" value="yes" id="yes" /><label for="yes">Yes</label>
+                <input type="radio" name="characters" value="ni" id="no" /><label for="no">No</label>
+            </div>
+                <h2>Favorite Characters</h2>
+                <input type="checkbox" name="characters" value="aang" id="aang" /><label for="aang">Aang</label>
+                <input type="checkbox" name="characters" value="katara" id="katara" /><label for="katara">Katara</label>
+                <input type="checkbox" name="characters" value="soka" id="soka" /><label for="soka">Soka</label>
+                <input type="checkbox" name="characters" value="toph" id="toph" /><label for="toph">Toph</label>
+                <input type="checkbox" name="characters" value="zuko" id="zuko" /><label for="zuko">Zuko</label>
+            </div>
+            <div class="dropdown">
+                <label for="book" class="label_input_wrap">Which book is your favorite?</label>
+                <select name="book" id="book">
+                    <option value="water">Water</option>
+                    <option value="earth">Earth</option>
+                    <option value="fire">Fire</option>
+                </select>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+       </form>
     </body>
 </html>
