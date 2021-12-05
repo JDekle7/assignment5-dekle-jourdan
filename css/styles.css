@@ -3,6 +3,47 @@
     padding: 0;
     border: 0;
 }
+.menu ul {
+    list-style: none;
+}
+.menu > ul >li {
+    display:inline-block;
+    background: lightgreen;
+    width: 25%;
+    position: relative;
+    vertical-align: top;
+    margin-left: -3px;
+    border-top: 7px solid darkcyan;
+}
+
+.menu ul li a {
+    color:black;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background:white;
+    transition: .3s;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.menu-item:hover .sub-menu {
+    display: block;
+    position: absolute;
+    top: 50px;
+    background: lightgreen;
+    width: 640px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0px;
+}
 
 h1 {
     text-align: center;

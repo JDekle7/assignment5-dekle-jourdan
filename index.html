@@ -6,6 +6,23 @@
         <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
+        <header>
+            <nav class="menu">
+                <ul>
+                    <li class="menu-item"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="#">About</a></li>
+                    <li class="menu-item"><a href="#">Characters</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="#">Aang</a></li>
+                            <li class="menu-item"><a href="#">Katara</a></li>
+                            <li class="menu-item"><a href="#">Toph</a></li>
+                            <li class="menu-item"><a href="#">Zuko</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu item"><a href="#">Songs</a></li>
+                </ul>
+            </nav>
+        </header>
         <h1>Who is Your Favorite Avatar: The Last Airbender Character?</h1>
         <section class="content">
             <img class="image" src="images/avatar.jpg" width="500">
@@ -15,7 +32,7 @@
             <p>Are you a fan of Avatar: The last Airbender?</p>
             <p>If so, complete this form!</p>
         </section>
-        <form name="contactform" method="POST" action="">
+        <form id="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)">
             <div class="first-name input-section">
                 <label for="firstname" class="label_input_wrap">First Name:</label>
                 <input type="text" name="firstname" id="firstname">
@@ -53,5 +70,6 @@
                 <input type="submit" value="Submit">
             </div>
        </form>
+       <footer>This website was created by Jourdan Dekle</footer>
     </body>
 </html>
